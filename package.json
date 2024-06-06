@@ -10,7 +10,7 @@
     "lint:fix": "eslint . --ext ts,tsx --fix && npx stylelint  \"**/*.scss\" --fix",
     "preview": "vite preview",
     "test": "vitest",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "lint-staged": {
     "*/**": "npm run lint"
